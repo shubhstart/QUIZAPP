@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txtHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Password"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_green_dark"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/edtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter username"/>
+    <EditText
+        android:id="@+id/edtOldpasswd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter old password"/>
+    <EditText
+        android:id="@+id/edtNewpasswd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter new password"/>
+    <EditText
+        android:id="@+id/edtConfirmpasswd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="confirm password"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnChangepasswd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Password"/>
+        <Button
+            android:id="@+id/btnCancle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancle"/>
+    </LinearLayout>
+
+</LinearLayout>

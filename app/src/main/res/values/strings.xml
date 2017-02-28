@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">QUIZ APP</string>
+    <string-array name="role">
+        <item>admin</item>
+        <item>user</item>
+    </string-array>
+</resources>
